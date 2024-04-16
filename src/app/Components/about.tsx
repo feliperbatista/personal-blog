@@ -5,13 +5,13 @@ export default function About() {
         <h2 className="font-noto text-title text-lg lg:hidden sm:sticky top-0 py-5 bg-background/90 backdrop-blur-[3.5px]">
           Sobre
         </h2>
-        <p className="text-text mb-3 lg:text-start sm:text-justify">
+        <p className="text-text mb-3 lg:text-start sm:text-justify font-montserrat">
           Nasci em Paranavaí, no interior de Paraná, no dia 26 de março de 2001.
           Quando tinha dois anos, minha família e eu nos mudamos para
           Bridgeport/Connecticut nos Estados Unidos, para meus pais buscarem{' '}
           <span className="text-highlight">melhores oportunidades</span>.
         </p>
-        <p className="text-text mb-3 lg:text-start sm:text-justify">
+        <p className="text-text mb-3 lg:text-start sm:text-justify font-montserrat">
           Desde criança, sempre gostei de mergulhar em livros, aprender sobre
           coisas novas e, no futuro, me tornar um{' '}
           <span className="text-highlight">cientista</span> - trabalhando em
@@ -19,7 +19,7 @@ export default function About() {
           mais. Por causa disso, durante o ensino médio, resolvi fazer graduação
           em <span className="text-highlight">Engenharia Química</span>.
         </p>
-        <p className="text-text mb-3 lg:text-start sm:text-justify">
+        <p className="text-text mb-3 lg:text-start sm:text-justify font-montserrat">
           Na universidade, descobri a infinidade de áreas que poderia seguir
           como engenheiro químico, mas me apaxonei com uma em específico: a{' '}
           <span className="text-highlight"> simulação de processos</span> e,
@@ -29,7 +29,7 @@ export default function About() {
           capaz de simular e dimensionar processos de evaporação em múltiplos
           efeitos.
         </p>
-        <p className="text-text lg:text-start sm:text-justify">
+        <p className="text-text lg:text-start sm:text-justify font-montserrat">
           Hoje, busco me capacitar melhor na área de{' '}
           <span className="text-highlight">programação</span>. Gosto de
           programar em C# e desenvolver aplicações para web utilizando HTML, CSS

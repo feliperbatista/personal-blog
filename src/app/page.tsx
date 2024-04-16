@@ -8,8 +8,7 @@ export default function Home() {
     <Main>
       <Header></Header>
       <About></About>
-      <About></About>
-      <About></About>
+      <Education></Education>
     </Main>
   );
 }
