@@ -8,7 +8,7 @@ export default function About() {
           Sobre
         </h2>
         <p className="appear text-title mb-3 lg:text-start sm:text-justify font-montserrat">
-          Nasci em Paranavaí, no interior de Paraná, no dia 26 de março de 2001.
+          Nasci em Paranavaí, no interior do Paraná, no dia 26 de março de 2001.
           Quando tinha dois anos, minha família e eu nos mudamos para
           Bridgeport/Connecticut nos Estados Unidos, para meus pais buscarem{' '}
           <span className="text-highlight">melhores oportunidades</span>.
@@ -23,7 +23,7 @@ export default function About() {
         </p>
         <p className="appear text-title mb-3 lg:text-start sm:text-justify font-montserrat">
           Na universidade, descobri a infinidade de áreas que poderia seguir
-          como engenheiro químico, mas me apaxonei com uma em específico: a{' '}
+          como engenheiro químico, mas me apaixonei por uma em específico: a{' '}
           <span className="text-highlight"> simulação de processos</span> e,
           assim, aquele meu sonho de criança de trabalhar em laboratório mudou.
           Como trabalho de conclusão de curso, desenvolvi em dupla com um amigo
@@ -38,7 +38,7 @@ export default function About() {
           e JavaScript. Além disso, tenho como objetivo conseguir um estágio
           como <span className="text-highlight">desenvolvedor</span>, para
           melhorar meus conhecimentos e, mais para frente, integrar as novidades
-          tecnologias com o que aprendi na Engenharia Química.
+          tecnológicas com o que aprendi na Engenharia Química.
         </p>
       </div>
     </section>
