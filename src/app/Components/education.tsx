@@ -33,7 +33,7 @@ export default function Education() {
                 <h3 className="text-text font-montserrat text-m">
                   Curso de Programação em C#
                 </h3>
-                <Link href='/' className='flex items-center ml-3'>
+                <Link href='https://www.udemy.com/certificate/UC-bed73e22-a2a7-4b72-9f82-894fe9d148cb/' target='blank' className='flex items-center ml-3'>
                   <FaLink className='fill-text w-3 h-3 hover:fill-highlight'></FaLink>
                 </Link>
                 <p className="mt-2 mb-5 col-span-2 font-montserrat text-title">Udemy</p>
@@ -58,7 +58,7 @@ export default function Education() {
                 <h3 className="text-text font-montserrat text-m">
                   Curso de Controle de Processos com Python
                 </h3>
-                <Link href='/' className='flex items-center ml-3'>
+                <Link href='https://www.udemy.com/certificate/UC-280ea3e7-f57e-4ef3-aa85-964c097b7823/' target='blank' className='flex items-center ml-3'>
                   <FaLink className='fill-text w-3 h-3 hover:fill-highlight'></FaLink>
                 </Link>
                 <p className="mt-2 mb-5 col-span-2 font-montserrat text-title">Udemy</p>

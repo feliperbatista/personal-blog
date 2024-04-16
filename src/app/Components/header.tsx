@@ -36,9 +36,9 @@ export default function Header() {
         </h1>
         <div className="font-montserrat text-text lg:mb-56 sm:mb-20 sm:w-44 lg:w-auto">
           <div className='container'>
-            <h3>Engenheiro químico</h3>
-            <h3>Dev em construção</h3>
-            <h3>Curioso</h3>
+            <h3>Engenheiro químico.</h3>
+            <h3>Dev em construção.</h3>
+            <h3>Curioso.</h3>
           </div>
         </div>
         <div className="flex justify-center flex-row gap-3">

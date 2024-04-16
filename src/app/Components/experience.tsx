@@ -46,7 +46,7 @@ export default function Experience() {
           </li>
         </ul>
         <Link href='https://github.com/feliperbatista' target='blank' className='flex'>
-          <p className='text-text inline-block border-b-2 border-b-background transition hover:border-b-2 hover:border-b-highlight [&:hover+div]:translate-x-1'>Veja meus demais projetos no Github</p>
+          <p className='text-text sm:text-xs inline-block border-b-2 border-b-background transition hover:border-b-2 hover:border-b-highlight [&:hover+div]:translate-x-1'>Veja meus demais projetos no Github</p>
           <div className='flex flex-col justify-center ml-2'>
             <FaArrowRight className='fill-text w-3 h-3'></FaArrowRight>
           </div>
