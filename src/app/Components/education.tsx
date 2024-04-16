@@ -9,11 +9,11 @@ export default function Education() {
             <h4 className="text-title w-auto text-m font-noto pl-2 row-span-2 text-left">
               2019 - hoje
             </h4>
-            <div className="w-72">
-              <h3 className="text-highlight font-montserrat text-m">
+            <div>
+              <h3 className="text-text font-montserrat text-m">
                 Bacharelado em Engenharia Química
               </h3>
-              <p className="my-2 font-montserrat text-text">
+              <p className="my-2 font-montserrat text-title">
                 Universidade Estadual de Maringá
               </p>
             </div>
@@ -27,19 +27,19 @@ export default function Education() {
                 2023
               </h4>
               <div className="w-72">
-                <h3 className="text-highlight font-montserrat text-m">
+                <h3 className="text-text font-montserrat text-m">
                   Curso de Programação em C#
                 </h3>
-                <p className="mt-2 mb-5 font-montserrat text-text">Udemy</p>
+                <p className="mt-2 mb-5 font-montserrat text-title">Udemy</p>
                 <div className="flex flex-row gap-3 mb-2">
-                  <div className="bg-highlight/50 rounded-full px-2">
-                    <p className="text-text">C#</p>
+                  <div className="bg-highlight bg-opacity-10 rounded-full">
+                    <p className="text-highlight text-sm px-2 py-1">C#</p>
                   </div>
-                  <div className="bg-highlight/50 rounded-full px-2">
-                    <p className="text-text">Winforms</p>
+                  <div className="bg-highlight bg-opacity-10 rounded-full">
+                    <p className="text-highlight text-sm px-2 py-1">Winforms</p>
                   </div>
-                  <div className="bg-highlight/50 rounded-full px-2">
-                    <p className="text-text">POO</p>
+                  <div className="bg-highlight bg-opacity-10 rounded-full">
+                    <p className="text-highlight text-sm px-2 py-1">POO</p>
                   </div>
                 </div>
               </div>
@@ -54,19 +54,19 @@ export default function Education() {
                 2023
               </h4>
               <div className="w-72">
-                <h3 className="text-highlight font-montserrat text-m">
+                <h3 className="text-text font-montserrat text-m">
                   Curso de Controle de Processos
                 </h3>
-                <p className="mt-2 mb-5 font-montserrat text-text">Udemy</p>
+                <p className="mt-2 mb-5 font-montserrat text-title">Udemy</p>
                 <div className="flex flex-row gap-3 mb-2">
-                  <div className="bg-highlight/50 rounded-full px-2">
-                    <p className="text-text">Python</p>
+                  <div className="bg-highlight bg-opacity-10 rounded-full px-2">
+                    <p className="text-highlight text-sm px-2 py-1">Python</p>
                   </div>
-                  <div className="bg-highlight/50 rounded-full px-2">
-                    <p className="text-text">Sintonia</p>
+                  <div className="bg-highlight bg-opacity-10 rounded-full px-2">
+                    <p className="text-highlight text-sm px-2 py-1">Sintonia</p>
                   </div>
-                  <div className="bg-highlight/50 rounded-full px-2">
-                    <p className="text-text">PID</p>
+                  <div className="bg-highlight bg-opacity-10 rounded-full px-2">
+                    <p className="text-highlight text-sm px-2 py-1">PID</p>
                   </div>
                 </div>
               </div>
@@ -77,37 +77,37 @@ export default function Education() {
               hoje
             </h4>
             <div className="w-72">
-              <h3 className="text-highlight font-montserrat text-m">
+              <h3 className="text-text font-montserrat text-m">
                 Curso de JavaScript e TypeScript
               </h3>
-              <p className="mt-2 mb-5 font-montserrat text-text">Udemy</p>
+              <p className="mt-2 mb-5 font-montserrat text-title">Udemy</p>
               <div className="flex flex-wrap gap-3 align-middle text-center mb-2">
-                <div className="bg-highlight/50 rounded-full justify-center px-2">
-                  <p className="text-text">JS</p>
+                <div className="bg-highlight bg-opacity-10 rounded-full justify-center px-2">
+                  <p className="text-highlight text-sm px-2 py-1">JS</p>
                 </div>
-                <div className="bg-highlight/50 rounded-full px-2 ">
-                  <p className="text-text">TS</p>
+                <div className="bg-highlight bg-opacity-10 rounded-full px-2 ">
+                  <p className="text-highlight text-sm px-2 py-1">TS</p>
                 </div>
-                <div className="bg-highlight/50 rounded-full px-2 ">
-                  <p className="text-text">HTML</p>
+                <div className="bg-highlight bg-opacity-10 rounded-full px-2 ">
+                  <p className="text-highlight text-sm px-2 py-1">HTML</p>
                 </div>
-                <div className="bg-highlight/50 rounded-full px-2">
-                  <p className="text-text">CSS</p>
+                <div className="bg-highlight bg-opacity-10 rounded-full px-2">
+                  <p className="text-highlight text-sm px-2 py-1">CSS</p>
                 </div>
-                <div className="bg-highlight/50 rounded-full px-2">
-                  <p className="text-text">SQL</p>
+                <div className="bg-highlight bg-opacity-10 rounded-full px-2">
+                  <p className="text-highlight text-sm px-2 py-1">SQL</p>
                 </div>
-                <div className="bg-highlight/50 rounded-full px-2">
-                  <p className="text-text">React</p>
+                <div className="bg-highlight bg-opacity-10 rounded-full px-2">
+                  <p className="text-highlight text-sm px-2 py-1">React</p>
                 </div>
-                <div className="bg-highlight/50 rounded-full px-2">
-                  <p className="text-text">Node</p>
+                <div className="bg-highlight bg-opacity-10 rounded-full px-2">
+                  <p className="text-highlight text-sm px-2 py-1">Node</p>
                 </div>
-                <div className="bg-highlight/50 rounded-full px-2">
-                  <p className="text-text">Next</p>
+                <div className="bg-highlight bg-opacity-10 rounded-full px-2">
+                  <p className="text-highlight text-sm px-2 py-1">Next</p>
                 </div>
-                <div className="bg-highlight/50 rounded-full px-2">
-                  <p className="text-text">Strapi</p>
+                <div className="bg-highlight bg-opacity-10 rounded-full px-2">
+                  <p className="text-highlight text-sm px-2 py-1">Strapi</p>
                 </div>
               </div>
             </div>
@@ -117,19 +117,19 @@ export default function Education() {
               hoje
             </h4>
             <div className="w-72">
-              <h3 className="text-highlight font-montserrat text-m">
+              <h3 className="text-text font-montserrat text-m">
                 Aspen Plus V11 Masterclass
               </h3>
-              <p className="mt-2 mb-5 font-montserrat text-text">Udemy</p>
+              <p className="mt-2 mb-5 font-montserrat text-title">Udemy</p>
               <div className="flex flex-wrap gap-3 align-middle text-center mb-2">
-                <div className="bg-highlight/50 rounded-full justify-center px-2">
-                  <p className="text-text">Aspen</p>
+                <div className="bg-highlight bg-opacity-10 rounded-full justify-center px-2">
+                  <p className="text-highlight text-sm px-2 py-1">Aspen</p>
                 </div>
-                <div className="bg-highlight/50 rounded-full px-2 ">
-                  <p className="text-text">Simulação</p>
+                <div className="bg-highlight bg-opacity-10 rounded-full px-2 ">
+                  <p className="text-highlight text-sm px-2 py-1">Simulação</p>
                 </div>
-                <div className="bg-highlight/50 rounded-full px-2 ">
-                  <p className="text-text">Processos</p>
+                <div className="bg-highlight bg-opacity-10 rounded-full px-2 ">
+                  <p className="text-highlight text-sm px-2 py-1">Processos</p>
                 </div>
               </div>
             </div>
