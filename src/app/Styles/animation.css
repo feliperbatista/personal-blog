@@ -1,12 +1,12 @@
 .appear {
   animation: appear 1ms ease-in-out;
   animation-timeline: view();
-  animation-range: cover 0% cover 50%;
+  animation-range: cover 0% cover 30%;
 }
 
 @keyframes appear {
   from {
-    opacity: 0.6;
+    opacity: 0.3;
   }
   to {
     opacity: 1;
