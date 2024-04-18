@@ -1,11 +1,7 @@
 import '../Styles/animation.css';
-import Image from 'next/image';
-import foto1 from '../../../public/foto-pet.png';
-import foto2 from '../../../public/DWSIM.png';
-import foto3 from '../../../public/be8.png';
-import foto4 from '../../../public/Evaporatech.png';
 import Link from 'next/link';
 import { FaArrowRight } from 'react-icons/fa';
+import ExperienceCard from './experience-card';
 
 
 export default function Experience() {
@@ -16,34 +12,35 @@ export default function Experience() {
           Experiência
         </h2>
         <ul className='sm:text-justify'>
-          <li className="appear rounded-lg flex lg:flex-row sm:flex-col justify-center align-middle mb-5 py-5 transition-all group hover:bg-white/10 hover:shadow">
-            <Image src={foto1} alt='Foto dos membros do PET Engenharia Química' width={1500} height={1500} quality={100} className='rounded justify-self-center lg:ml-2 lg:w-1/4 lg:h-1/4 sm:w-4/5 sm:h-4/5 sm:mb-3 sm:mx-auto'/>
-          <div className='mx-3'>
-            <h3 className='text-text group-hover:text-highlight'>PET Engenharia Química</h3>
-            <p className='text-title text-sm'>Na graduação, fui bolsista do Programa de Educação Tutorial, grupo fomentado pelo Governo Federal com o objetivo de desenvolver atividades relacionadas à tríade de ensino, pesquisa e extensão. Ministrei cursos de Excel e DWSIM, organizei eventos internos e externos, conheci muitas pessoas e desenvolvi minhas habilidades de trabalho em grupo, organização, proatividade e comprometimento.</p>
-          </div>
-          </li>
-          <li className="appear rounded-lg flex lg:flex-row sm:flex-col mb-5 py-5 transition-all group hover:bg-white/10 hover:shadow">
-            <Image src={foto2} alt='Captura da tela do simulador DWSIM' width={1500} height={1500} quality={100} className='rounded justify-self-center lg:ml-2 lg:w-1/4 lg:h-1/4 sm:w-4/5 sm:h-4/5 sm:mb-3 sm:mx-auto'/>
-          <div className='mx-3'>
-            <h3 className='text-text group-hover:text-highlight'>Iniciação Científica</h3>
-            <p className='text-title text-sm'>Desenvolvi uma iniciação científica, em que escrevi códigos de operações unitárias em Python para o DWSIM, simulador <i>open-source</i> de processos químicos.</p>
-          </div>
-          </li>
-          <li className="appear rounded-lg flex lg:flex-row sm:flex-col mb-5 py-5 transition-all group hover:bg-white/10 hover:shadow">
-            <Image src={foto3} alt='Logo da empresa Be8' width={1500} height={1500} quality={100} className='rounded justify-self-center lg:ml-2 lg:w-1/4 lg:h-1/4 sm:w-4/5 sm:h-4/5 sm:mb-3 sm:mx-auto'/>
-          <div className='mx-3'>
-            <h3 className='text-text group-hover:text-highlight'>Estagiário de Meio Ambiente</h3>
-            <p className='text-title text-sm'>Realizei meu estágio obrigatório na Be8, em Marialva/PR. Atuei no setor de Meio Ambiente, em específico na coleta e análise de águas e efluentes, além de atualização de documentos do setor, de acordo com as ISOs 14001 e 45001.</p>
-          </div>
-          </li>
-          <li className="appear rounded-lg flex lg:flex-row sm:flex-col mb-5 py-5 transition-all group hover:bg-white/10 hover:shadow">
-            <Image src={foto4} alt='Captura de tela do software Evaporatech' width={1500} height={1500} quality={100} className='rounded justify-self-center lg:ml-2 lg:w-1/4 lg:h-1/4 sm:w-4/5 sm:h-4/5 sm:mb-3 sm:mx-auto'/>
-          <div className='mx-3'>
-            <h3 className='text-text group-hover:text-highlight'>Evaporatech</h3>
-            <p className='text-title text-sm'>Como trabalho de conclusão de curso, desenvolvi, em dupla com um amigo, o <strong>Evaporatech</strong> - software capaz de simular e dimensionar processos de evaporação em múltiplos efeitos. O programa foi escrito em C# e utilizando Winforms.</p>
-          </div>
-          </li>
+          <ExperienceCard
+            image='/images/foto-pet.png'
+            alt='Foto dos membros do grupo PET Engenharia Química'
+            title='PET Engenharia Química'
+            description='Na graduação, fui bolsista do Programa de Educação Tutorial, grupo fomentado pelo Governo Federal com o objetivo de desenvolver atividades relacionadas à tríade de ensino, pesquisa e extensão. Ministrei cursos de Excel e DWSIM, organizei eventos internos e externos, conheci muitas pessoas e desenvolvi minhas habilidades de trabalho em grupo, organização, proatividade e comprometimento.'
+          >
+          </ExperienceCard>
+          <ExperienceCard
+            image='/images/DWSIM.png'
+            alt='Captura da tela do simulador DWSIM'
+            title='Iniciação Científica'
+            description='Desenvolvi uma iniciação científica, em que escrevi códigos de operações unitárias em Python para o DWSIM, simulador open-source de processos químicos.'
+          >
+          </ExperienceCard>
+          <ExperienceCard
+            image='/images/be8.png'
+            alt='Logo da empresa Be8'
+            title='Estagiário de Meio Ambiente'
+            description='Realizei meu estágio obrigatório na Be8, em Marialva/PR. Atuei no setor de Meio Ambiente, em específico na coleta e análise de águas e efluentes, além de atualização de documentos do setor, de acordo com as ISOs 14001 e 45001.'
+          >
+          </ExperienceCard>
+          <ExperienceCard
+            image='/images/Evaporatech.png'
+            alt='Captura de tela do software Evaporatech'
+            title='Evaporatech'
+            description={'Como trabalho de conclusão de curso, desenvolvi, em dupla com um amigo, o Evaporatech - software capaz de simular e dimensionar processos de evaporação em múltiplos efeitos. O programa foi escrito em C# e utilizando Winforms.'}
+
+          >
+          </ExperienceCard>
         </ul>
         <Link href='https://github.com/feliperbatista' target='blank' className='flex group'>
           <p className='text-text lg:text-sm sm:text-xs inline-block border-b-2 border-b-background transition hover:border-b-2 hover:border-b-highlight'>Veja meus demais projetos no Github</p>
@@ -51,7 +48,6 @@ export default function Experience() {
             <FaArrowRight className='fill-text w-3 h-3 transition-all group-hover:translate-x-2'></FaArrowRight>
           </div>
         </Link>
-
       </div>
     </section>
   );
