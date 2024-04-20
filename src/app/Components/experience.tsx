@@ -13,6 +13,7 @@ export default function Experience() {
         </h2>
         <ul className='sm:text-justify'>
           <ExperienceCard
+            id={1}
             image='/images/foto-pet.png'
             alt='Foto dos membros do grupo PET Engenharia Química'
             title='PET Engenharia Química'
@@ -20,6 +21,7 @@ export default function Experience() {
           >
           </ExperienceCard>
           <ExperienceCard
+            id={2}
             image='/images/DWSIM.png'
             alt='Captura da tela do simulador DWSIM'
             title='Iniciação Científica'
@@ -27,6 +29,7 @@ export default function Experience() {
           >
           </ExperienceCard>
           <ExperienceCard
+            id={3}
             image='/images/be8.png'
             alt='Logo da empresa Be8'
             title='Estagiário de Meio Ambiente'
@@ -34,6 +37,7 @@ export default function Experience() {
           >
           </ExperienceCard>
           <ExperienceCard
+            id={4}
             image='/images/Evaporatech.png'
             alt='Captura de tela do software Evaporatech'
             title='Evaporatech'

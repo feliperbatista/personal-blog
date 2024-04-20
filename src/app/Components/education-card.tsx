@@ -2,6 +2,7 @@ import Link from "next/link";
 import { FaLink } from "react-icons/fa";
 
 interface EducationCardProps {
+  id: string,
   date: string,
   title: string,
   link?: string,
@@ -15,8 +16,8 @@ export default function EducationCard(props: EducationCardProps) {
       <h4 className="text-title w-32 lg:text-m sm:text-sm font-noto ml-2 row-span-3 text-left">
         {props.date}
       </h4>
-      <div className="ml-2 flex flex-col w-full">
-        <div className="flex">
+      <div key={props.id} className="ml-2 flex flex-col w-full">
+        <div key={props.id} className="flex">
           <h3 className="text-text font-montserrat text-m group-hover:text-highlight">
             {props.title}
 
@@ -33,9 +34,9 @@ export default function EducationCard(props: EducationCardProps) {
         </div>
         <p className="mt-2 col-span-2 font-montserrat text-title">{props.subtitle}</p>
         {(props.skills) ? (
-          <div className="flex mt-5 flex-row gap-3 mb-2 flex-wrap">
+          <div key={props.id} className="flex mt-5 flex-row gap-3 mb-2 flex-wrap">
             {props.skills.map((skill) =>
-              <div className="bg-highlight bg-opacity-10 rounded-full">
+              <div key={props.id} className="bg-highlight bg-opacity-10 rounded-full">
                 <p className="text-highlight text-sm px-2 py-1">{skill}</p>
               </div>
             )}

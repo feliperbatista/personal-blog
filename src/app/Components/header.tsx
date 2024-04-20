@@ -32,7 +32,7 @@ export default function Header() {
           Olá! Eu sou o
         </h2>
         <h1 className="my-3 font-michroma text-title lg:text-3xl sm:text-2xl font-bold">
-          <Link href="/">Felipe Rodrigues Batista</Link>
+          <Link href="/" className='font-michroma'>Felipe Rodrigues Batista</Link>
         </h1>
         <div className="font-montserrat text-text lg:mb-56 sm:mb-20 sm:w-44 lg:w-auto">
           <div className='container'>

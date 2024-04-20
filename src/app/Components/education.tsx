@@ -13,12 +13,14 @@ export default function Education() {
         </h2>
         <ul>
         <EducationCard
+              id={'1'}
               date='2019 - hoje'
               title='Bacharelado em Engenharia Química'
               subtitle='Universidade Estadual de Maringá'
             >
         </EducationCard>
         <EducationCard
+              id={'2'}
               date='2023'
               title='Curso de Programação em C#'
               link='https://www.udemy.com/certificate/UC-bed73e22-a2a7-4b72-9f82-894fe9d148cb/'
@@ -27,6 +29,7 @@ export default function Education() {
             >
         </EducationCard>
         <EducationCard
+              id={'2'}
               date='2023'
               title='Curso de Controle de Processos com Python'
               link='https://www.udemy.com/certificate/UC-280ea3e7-f57e-4ef3-aa85-964c097b7823/'
@@ -35,6 +38,7 @@ export default function Education() {
             >
         </EducationCard>
         <EducationCard
+              id={'3'}
               date='2024'
               title='Curso de JavaScript e TypeScript'
               link='https://www.udemy.com/certificate/UC-3f9d454f-206d-49e8-a54b-c8f437f1244e/'
@@ -43,6 +47,7 @@ export default function Education() {
             >
         </EducationCard>
         <EducationCard
+              id={'4'}
               date='hoje'
               title='Aspen Plus V11 Masterclass'
               subtitle='Udemy'
