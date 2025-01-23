@@ -46,7 +46,7 @@ export default function Experience() {
           </ExperienceCard>
           <ExperienceCard
             id={5}
-            image='/images/logoArBrain.png'
+            image='/images/Logo-ArBrain.png'
             alt='Logo da ArBrain'
             title='ArBrain'
             description={'A ArBrain é uma empresa de tecnologia voltada para a gestão de cervejarias e distribuições. Ingressei como estagiário e atualmente sou dev júnior. Desenvolvo códigos em C#, utilizando WindowsForms, e construo comandos SQL para criação de bases de dados e operações de CRUD.'}

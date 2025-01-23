@@ -37,7 +37,7 @@ export default function Header() {
           </h1>
           <div className="font-montserrat text-text sm:w-44 lg:w-auto">
             <h3>Engenheiro químico.</h3>
-            <h3>Dev em construção.</h3>
+            <h3>Desenvolvedor.</h3>
             <h3>Curioso.</h3>
           </div>
         </div>
