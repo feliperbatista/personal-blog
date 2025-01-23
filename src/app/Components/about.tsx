@@ -35,10 +35,7 @@ export default function About() {
           Hoje, busco me capacitar melhor na área de{' '}
           <span className="text-highlight">programação</span>. Gosto de
           programar em C# e desenvolver aplicações para web utilizando HTML, CSS
-          e JavaScript. Além disso, tenho como objetivo conseguir um estágio
-          como <span className="text-highlight">desenvolvedor</span>, para
-          melhorar meus conhecimentos e, mais para frente, integrar as novidades
-          tecnológicas com o que aprendi na Engenharia Química.
+          e JavaScript. Meu próximo passo é iniciar minha pós-graduação em desenvolvimento <span className="text-highlight">fullstack</span>.
         </p>
       </div>
     </section>

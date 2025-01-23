@@ -49,9 +49,17 @@ export default function Education() {
         <EducationCard
               id={'4'}
               date='hoje'
-              title='Aspen Plus V11 Masterclass'
+              title='Node.js, Express, MongoDB & More: The Complete Bootcamp'
               subtitle='Udemy'
-              skills={['Aspen', 'Simulação', 'Processos']}
+              skills={['Node', 'Express', 'MongoDB', 'Mongoose', 'API', 'REST']}
+            >
+        </EducationCard>
+        <EducationCard
+              id={'5'}
+              date='hoje'
+              title='React - The Complete Guide 2025 '
+              subtitle='Udemy'
+              skills={['React', 'Hooks', 'Styled Components', 'Redux']}
             >
         </EducationCard>
           </ul>

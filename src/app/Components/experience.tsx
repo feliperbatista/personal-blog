@@ -42,7 +42,14 @@ export default function Experience() {
             alt='Captura de tela do software Evaporatech'
             title='Evaporatech'
             description={'Como trabalho de conclusão de curso, desenvolvi, em dupla com um amigo, o Evaporatech - software capaz de simular e dimensionar processos de evaporação em múltiplos efeitos. O programa foi escrito em C# e utilizando Winforms.'}
-
+          >
+          </ExperienceCard>
+          <ExperienceCard
+            id={5}
+            image='/images/logoArBrain.png'
+            alt='Logo da ArBrain'
+            title='ArBrain'
+            description={'A ArBrain é uma empresa de tecnologia voltada para a gestão de cervejarias e distribuições. Ingressei como estagiário e atualmente sou dev júnior. Desenvolvo códigos em C#, utilizando WindowsForms, e construo comandos SQL para criação de bases de dados e operações de CRUD.'}
           >
           </ExperienceCard>
         </ul>
