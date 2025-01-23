@@ -14,7 +14,7 @@ export default function Education() {
         <ul>
         <EducationCard
               id={'1'}
-              date='2019 - hoje'
+              date='2019 - 2024'
               title='Bacharelado em Engenharia Química'
               subtitle='Universidade Estadual de Maringá'
             >
